@@ -51,7 +51,7 @@ def pega_ipb_e_mb(limit):
 ### divide o tamanho total do dataset de acordo com a porcentagem de saida, fazendo
 ### pedaços de envio, simulando o envio em rede oscilado 
 def dividir_dataset_por_porcentagem_aleatoria(valor):
-    porcentagem = random.uniform(0, 0.3)  # Gera um valor aleatório entre 0 e 0.9
+    porcentagem = random.uniform(0, 0.9)  # Gera um valor aleatório entre 0 e 0.9
     valor = int(valor) * porcentagem
     return { 'valor': valor, 'porcentagem': porcentagem }
 
@@ -66,7 +66,7 @@ def main(args):
     filename = args[2]
     # ip = '127.0.0.1'
     # port = 9004
-    # filename = 'datasets/GMSC.arff'
+    # filename = 'datasets/airlines.arff'
 
     instancesSent = 0
     lines = []
@@ -83,7 +83,7 @@ def main(args):
     print("Connection from", address)
     
     if socketChannel:
-        socketChannel.setblocking(False)
+        socketChannel.setblocking(True)
         
         reading_header = True
         i = 0
@@ -123,7 +123,7 @@ def main(args):
                 num_inst += 1
                 instancesSent += 1
                 i += 1
-        
+
             if not keep_going:
                 break
 
@@ -132,7 +132,7 @@ def main(args):
             sl = 200 - elapsed if 0 < elapsed < 200 else 0
             time.sleep(sl / 1000)
 
-            if (time.time() - startingAll) > 120:
+            if (time.time() - startingAll) > 99999999:
                 keep_going = False
 
         totalSpent = time.time() - startingAll
