@@ -1,0 +1,89 @@
+Usage: ServerProducer <ip> <port> <file>
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 58794)
+
+Total Time Producer (s): 37.48568820953369
+Total instances Producer: 581012
+Producer Rate (inst per second): 15499.568708791423
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 58886)
+
+Total Time Producer (s): 35.4482319355011
+Total instances Producer: 581012
+Producer Rate (inst per second): 16390.43665300896
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59034)
+
+Total Time Producer (s): 35.243204832077026
+Total instances Producer: 581012
+Producer Rate (inst per second): 16485.787906302576
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59039)
+
+Total Time Producer (s): 38.454472064971924
+Total instances Producer: 581012
+Producer Rate (inst per second): 15109.087936985157
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59486)
+
+Total Time Producer (s): 30.605862855911255
+Total instances Producer: 581012
+Producer Rate (inst per second): 18983.683052339842
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59497)
+Closed by client! [Errno 32] Broken pipe
+
+Total Time Producer (s): 0.12447810173034668
+Total instances Producer: 0
+Producer Rate (inst per second): 0.0
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59500)
+
+Total Time Producer (s): 30.70012903213501
+Total instances Producer: 581012
+Producer Rate (inst per second): 18925.392769256192
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59505)
+Closed by client! [Errno 35] Resource temporarily unavailable
+
+Total Time Producer (s): 0.14861416816711426
+Total instances Producer: 5830
+Producer Rate (inst per second): 39229.0995663634
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59508)
+
+Total Time Producer (s): 31.86269497871399
+Total instances Producer: 581012
+Producer Rate (inst per second): 18234.86683684941
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59513)
+
+Total Time Producer (s): 36.511017084121704
+Total instances Producer: 581012
+Producer Rate (inst per second): 15913.333738727224
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59528)
+
+Total Time Producer (s): 33.197750091552734
+Total instances Producer: 581012
+Producer Rate (inst per second): 17501.54749637206
+read 581071 lines to memory from file datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 59543)
+read 581071 lines to memory from file datasets/covtypeNorm.arff.

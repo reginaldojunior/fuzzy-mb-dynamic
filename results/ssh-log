@@ -1,0 +1,51 @@
+ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
+read 581071 lines to memory from file /Users/reginaldoluisdeluna/Documents/Ufscar/fuzzy-dynamic-batch/datasets/covtypeNorm.arff.
+ssh-covtypeNorm-AdaptiveRandomForestExecutorMAXChunk
+read 581071 lines to memory from file /Users/reginaldoluisdeluna/Documents/Ufscar/fuzzy-dynamic-batch/datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 60726)
+
+Total Time Producer (s): 35.26760983467102
+Total instances Producer: 581012
+Producer Rate (inst per second): 16474.379826806875
+ssh-covtypeNorm-LBagExecutorMAXChunk
+read 581071 lines to memory from file /Users/reginaldoluisdeluna/Documents/Ufscar/fuzzy-dynamic-batch/datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 60736)
+
+Total Time Producer (s): 55.638335943222046
+Total instances Producer: 581012
+Producer Rate (inst per second): 10442.655952056377
+ssh-covtypeNorm-StreamingRandomPatchesExecutorMAXChunk
+read 581071 lines to memory from file /Users/reginaldoluisdeluna/Documents/Ufscar/fuzzy-dynamic-batch/datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 60752)
+Closed by client! [Errno 32] Broken pipe
+
+Total Time Producer (s): 120.15083909034729
+Total instances Producer: 564900
+Producer Rate (inst per second): 4701.590136838113
+ssh-covtypeNorm-OzaBagAdwinExecutorMAXChunk
+read 581071 lines to memory from file /Users/reginaldoluisdeluna/Documents/Ufscar/fuzzy-dynamic-batch/datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 60766)
+
+Total Time Producer (s): 46.41603708267212
+Total instances Producer: 581012
+Producer Rate (inst per second): 12517.483967128712
+ssh-covtypeNorm-OzaBagASHTExecutorMAXChunk
+read 581071 lines to memory from file /Users/reginaldoluisdeluna/Documents/Ufscar/fuzzy-dynamic-batch/datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 60777)
+
+Total Time Producer (s): 13.202708005905151
+Total instances Producer: 581012
+Producer Rate (inst per second): 44007.032476983644
+ssh-covtypeNorm-OzaBagExecutorMAXChunk
+read 581071 lines to memory from file /Users/reginaldoluisdeluna/Documents/Ufscar/fuzzy-dynamic-batch/datasets/covtypeNorm.arff.
+ServerSocket awaiting connections... ('127.0.0.1', 9004)
+Connection from ('127.0.0.1', 60780)
+
+Total Time Producer (s): 13.0312180519104
+Total instances Producer: 581012
+Producer Rate (inst per second): 44586.162067545374
