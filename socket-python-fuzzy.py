@@ -42,7 +42,7 @@ def pega_ipb_e_mb(limit):
     thoughput = dividir_dataset_por_porcentagem_aleatoria(limit)
     ips = thoughput['valor']
     ipb = ips // 5
-    print(thoughput)
+    # print(thoughput)
 
     mb = calc_minibatching_by_thoughput(int(thoughput['porcentagem'] * 100))
     print({ 'ipb': ipb, 'mb': mb })
@@ -64,9 +64,6 @@ def main(args):
     ip = args[0]
     port = int(args[1])
     filename = args[2]
-    # ip = '127.0.0.1'
-    # port = 9004
-    # filename = 'datasets/airlines.arff'
 
     instancesSent = 0
     lines = []
