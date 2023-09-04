@@ -114,12 +114,13 @@ def main(args):
             num_inst = 0
             
             ips = oscilar_instancias_por_segundo(limit)
-            mb = calcular_mb_simple(ips, limit)
+            # mb = calcular_mb_simple(ips, limit)
 
             ipb = ips['ipb']
 
             while num_inst < ipb and i < limit:
-                msg = str(mb) + ',' + lines[i] + "#"
+                # msg = str(mb) + ',' + lines[i] + "#"
+                msg = lines[i] + "#"
                 buffer = bytes(msg, 'utf-8')
 
                 try:
@@ -138,12 +139,17 @@ def main(args):
 
             justSent = time.time()
             elapsed = (justSent - startTime) * 1000
-            sl = 200 - elapsed if 0 < elapsed < 200 else 0
+            
+            if (elapsed > 0 and elapsed < 200):
+                sl = 200 - elapsed
+            else:
+                sl = 200
+
             time.sleep(sl / 1000)
 
             ips_history.append(ips)
             elapsed_history.append(elapsed)
-            mb_history.append(mb)
+            # mb_history.append(mb)
 
             if (time.time() - startingAll) > 99999999:
                 keep_going = False
