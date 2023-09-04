@@ -1,0 +1,10 @@
+Connected!
+Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+print extradionario!!!!
+HA, 122, HNL, ITO, 3, 462WN, 2961, MCO, DEN, 3, 1030 , 255, 0WN, 3575, BNA, MCI, 3, 1030 , 105, 1
+java.lang.NumberFormatException: For input string: "462WN"
+print extradionario!!!!
+WN, 257, AUS, LBB, 3, 1125 , AA, 2004, LAX, ORD, 5, 510 , 250, 0AA, 2022, SJU, ORD, 5, 510 , 305, 0
+java.lang.NumberFormatException: For input string: "AA"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+8385.0,123.79299926757812,4583.0,67.73403930664062,8250.0,67.0909090909091,22.58122650347353,15.787841191066995,10.895963242533627,62.239774928367254,76.79548563611492,43.48188254893794,64.30472354716076,69.1561441330459,59.453302961275625,60.303319118385446,86.33217993079585,34.274458305975045,0.0,1.0

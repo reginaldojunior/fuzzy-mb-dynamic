@@ -1,0 +1,7 @@
+Connected!
+print extradionario!!!!
+0.0.715737,37,0,0.583507,2885,7,0,1,0,1,0
+java.lang.NumberFormatException: multiple points
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+8501.0,20.599000930786133,1064.0,412.6899108886719,8500.0,93.8,7.915940070431462,48.129921259842476,2.4074074074072467,63.439069244035764,96.79108567253243,8.680555555555555,80.74112751532107,93.91468746307456,67.56756756756756,52.24373257754449,99.84924623115577,4.638218923933209,0.0,1.0

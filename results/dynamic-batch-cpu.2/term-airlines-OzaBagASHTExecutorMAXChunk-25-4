@@ -1,0 +1,10 @@
+Connected!
+print extradionario!!!!
+WN, 119, MQ, 2814, RAP, DFW, 3, 850 , 140, 1MQ, 2857, DFW, JAN, 3, 850 , 80, 1
+java.lang.NumberFormatException: For input string: "DFW"
+print extradionario!!!!
+WN, 403, DEN, MCI, 3, 1040 , 9DL, 2802, MIA, DTW, 4, 480 , 189, 0EV, 4952, EYW, ATL, 4, 480 , 123, 0
+java.lang.NumberFormatException: For input string: "9DL"
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
+10501.0,17.937999725341797,816.0,585.4052734375,10500.0,63.93333333333333,14.661539598668123,7.294981640146882,-0.744878957169471,57.755551467588695,74.51191598222701,38.37890625,58.80817483302173,68.20310574315998,49.41324392288349,56.73994785407353,82.10682492581603,31.373070782331027,0.0,1.0,25.0,9455.880000000001,5726.756988907422,1.0,0.0,801.24,1359.9653267638848,798.5600000000003,1357.5438937041165,798.5600000000003,1357.5438937041165,0.9200000000000003,0.7593857166596345,0.0,0.0,0.0,0.0,1.0,0.0

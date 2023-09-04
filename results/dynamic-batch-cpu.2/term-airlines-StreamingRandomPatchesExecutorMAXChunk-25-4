@@ -1,0 +1,12 @@
+Connected!
+print extradionario!!!!
+WN, 1181WN, 143, PIT, MDW, 3, 870 , 90, 1WN, 1754, SMF, SNA, 3, 870 , 85, 0
+java.lang.NumberFormatException: For input string: "1181WN"
+print extradionario!!!!
+WN, 829, LAS, US, 1747, PHL, LAS, 6, 470 , 342, 0US, 1885, PHL, FLL, 6, 470 , 180, 0
+java.lang.NumberFormatException: For input string: "PHL"
+print extradionario!!!!
+WN, 829, LAS, US, 1747, PHL, LAS, 6, 470 , 342, 0US, 1885, PHL, FLL, 6, 470 , 180, 0
+java.lang.NumberFormatException: For input string: "LAS"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+7501.0,120.70999908447266,7952.0,62.14066696166992,7500.0,66.50666666666667,28.10487346686698,16.18284951618285,19.072164948453622,64.50179377603664,73.94417349797655,53.1617235590375,65.53959316807864,67.97024036627242,63.10894596988486,63.49634853716009,81.06939704209329,45.92330003222688,0.0,1.0

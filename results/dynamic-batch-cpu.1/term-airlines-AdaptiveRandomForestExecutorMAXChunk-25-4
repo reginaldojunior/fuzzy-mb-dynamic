@@ -1,0 +1,6 @@
+Connected!
+print extradionario!!!!
+DL, 1475, MS9E, 4377, DTW, SAV, 7, 605 , 134, 0AA, 1112, MIA, EWR, 7, 605 , 170, 0
+java.lang.NumberFormatException: For input string: "SAV"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+8501.0,123.31199645996094,3585.0,68.93895721435547,8500.0,65.43529411764706,19.29634348417265,19.396433470507546,3.7352555701179533,60.048295120934256,75.23183274321363,42.82655246252677,61.15676126285254,69.55572876071707,52.757793764988016,58.97929553969492,81.91665136772535,36.04193971166448,0.0,1.0

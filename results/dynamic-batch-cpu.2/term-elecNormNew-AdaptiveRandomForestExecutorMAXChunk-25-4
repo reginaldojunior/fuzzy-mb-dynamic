@@ -1,0 +1,13 @@
+Connected!
+print extradionario!!!!
+WN0.017521,2,0.382979,0.106701,0.618417,0.003467,0.422915,0.414912,UP
+java.lang.NumberFormatException: For input string: "WN0.017521"
+print extradionario!!!!
+0.018539,4,0.765957,0.075057,0.543880.442547,6,1,0.086316,0.517703,0.0057,0.481875,0.500526,UP0.442591,7,0,0.076138,0.491967,0.005268,0.453133,0.500526,UP
+java.lang.NumberFormatException: multiple points
+print extradionario!!!!
+0.443432,5,0.425532,0.073526,0.0.446927,1,0,0.014861,0.390955,0.000976,0.382185,0.47807,DOWN0.446927,1,0.021277,0.002102,0.347664,0.000139,0.350337,0.332895,DOWN
+java.lang.NumberFormatException: multiple points
+BYTES READ -1
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+6001.0,22.055999755859375,1683.0,272.0801696777344,6000.0,87.93333333333334,75.01187281181316,21.13289760348583,71.6412064238151,87.65574168114289,85.12039514303355,89.85994397759104,88.27674062049063,89.75694444444444,86.7965367965368,87.04341877078262,80.93933463796478,93.14750290360047,0.0,1.0

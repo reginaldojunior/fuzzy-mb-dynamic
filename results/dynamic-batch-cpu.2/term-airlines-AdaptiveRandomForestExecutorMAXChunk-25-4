@@ -1,0 +1,9 @@
+Connected!
+print extradionario!!!!
+9E, 3863, JAX, MEM, 3, 465 ,CO, 1679, IAH, SAT, 3, 505 , 57, 0CO, 229, DEN, EWR, 3, 505 , 225, 1
+java.lang.NumberFormatException: For input string: "CO"
+print extradionario!!!!
+DL, 2219, LGADL, 1857, SLC, SEA, 4, 506 , 137, 0EV, 5463, ATL, VPS, 4, 506 , 80, 0
+java.lang.NumberFormatException: For input string: "SEA"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+8751.0,120.84500122070312,3412.0,72.41507720947266,8750.0,66.64,19.871669182188263,18.372483221476514,3.3443708609271647,60.39593383915465,76.59369737791675,41.97334394270937,61.689677067464345,70.83951349747849,52.5398406374502,59.15534020268791,83.3653342642695,34.94534614110633,0.0,1.0

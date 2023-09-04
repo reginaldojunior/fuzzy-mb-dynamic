@@ -1,0 +1,6 @@
+Connected!
+print extradionario!!!!
+WN, 1181OH, 6291, BOS, RDU, 3, 945 , 146, 0OH, 6567, DTW, XNA, 3, 945 , 147, 0
+java.lang.NumberFormatException: For input string: "1181OH"
+learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
+11001.0,120.62899780273438,2709.0,91.19697570800781,11000.0,68.62727272727273,23.589984513088158,12.831523111896951,3.3874580067189277,62.05368724519052,78.0680012710518,44.923371647509576,63.097358316980504,73.92874337987482,52.265973254086184,61.043980371246164,82.69826309411606,39.38969764837626,0.0,1.0
