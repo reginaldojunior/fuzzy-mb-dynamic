@@ -1,20 +1,41 @@
 Connected!
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
-Caught ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+[newChuckSize]:0
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 print extradionario!!!!
-0.0.00469,4,0.212766,0.075627,0.242339,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: multiple points
+N0.013451,7,0.574468,0.068272,0.30482,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "N0.013451"
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
 print extradionario!!!!
-0.018406,1,0.765957,0.089648,0.539572,0.003467,0.4220.026459,2,0.191489,0.048487,0.20604,0.003467,0.422915,0.414912,DOWN0.026459,2,0.212766,0.074817,0.290539,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: multiple points
+WN0.032034,2,0.680851,0.063408,0.30006,0.003467,0.422915,0.414912,DOWN
+java.lang.NumberFormatException: For input string: "WN0.032034"
+thread is open, sizeMB250
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+print extradionario!!!!
+OWN0.446706,3,0.234043,0.022367,0.305415,0.000976,0.308907,0.765789,DOWN
+java.lang.NumberFormatException: For input string: "OWN0.446706"
+thread is open, sizeMB500
+thread is open, sizeMB250
+[newChuckSize]:250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+thread is open, sizeMB250
+BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-7751.0,10.22700023651123,419.0,757.895751953125,7750.0,76.68387096774194,51.36223933643777,-45.60838033843671,43.934222773813225,75.76929508680543,70.60354644542053,80.67999572329732,76.21087264557416,74.28962684012325,78.13211845102505,75.33280518641914,67.26596404215746,83.39964633068081,0.0,1.0,25.0,6939.0,3015.1825677173624,1.0,0.0,13.68,13.350156054019244,9.08,8.128755542311914,9.08,8.128755542311914,1.92,1.630950643030009,0.0,0.0,0.0,0.0,1.0,0.0
+28564.0,119.177001953125,750.0,239.67710876464844,28500.0,77.54035087719299,51.880889876766204,-50.86024039594621,47.20824742268042,77.41549073517344,68.01959412176348,82.69579086804899,80.25668834682673,86.33422154548916,74.17915514816431,74.76857974767077,56.11546391752577,93.42169557781578,0.0,1.0,25.0,20067.2,11452.057035019225,1.0,0.0,26.840000000000003,23.394586268337097,18.08,15.89003880842754,18.08,15.89003880842754,3.3199999999999994,2.410394158638789,0.0,0.0,0.0,0.0,1.0,0.0

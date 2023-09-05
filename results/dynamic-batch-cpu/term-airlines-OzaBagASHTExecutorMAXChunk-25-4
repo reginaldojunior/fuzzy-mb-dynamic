@@ -1,13 +1,33 @@
 Connected!
-print extradionario!!!!
-9E, 3863, JAX, MEM, 3, 465 ,UA, 870, SFO, JFK, 3, 775 , 351, 1US, 1190, MSY, CLT, 3, 775 , 106, 1
-java.lang.NumberFormatException: For input string: "UA"
-print extradionario!!!!
-CO, 172,DL, 328, JAN, ATL, 5, 370 , 83, 0EV, 5176, VPS, MEM, 5, 370 , 88, 1
-java.lang.NumberFormatException: For input string: "ATL"
-print extradionario!!!!
-WN, 458, OAK, ONT, 5, 42B6, 120, MSY, JFK, 5, 1089 , 169, 0DL, 2278, SAN, SLC, 5, 1089 , 111, 1
-java.lang.NumberFormatException: For input string: "42B6"
-BYTES READ -1
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB25
+[newChuckSize]:25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB25
+thread is open, sizeMB500
+[newChuckSize]:500
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes),ensemble size,[avg] model training instances,[err] model training instances,[avg] model serialized size (bytes),[err] model serialized size (bytes),[avg] tree size (nodes),[err] tree size (nodes),[avg] tree size (leaves),[err] tree size (leaves),[avg] active learning leaves,[err] active learning leaves,[avg] tree depth,[err] tree depth,[avg] active leaf byte size estimate,[err] active leaf byte size estimate,[avg] inactive leaf byte size estimate,[err] inactive leaf byte size estimate,[avg] byte size estimate overhead,[err] byte size estimate overhead
-7501.0,16.08300018310547,1009.0,466.39306640625,7500.0,62.14666666666666,6.17299923092042,2.4063251976624196,-9.868421052631588,53.38917524109533,74.19530823786143,29.057264316079017,54.03714274344863,67.07216833799112,41.002117148906144,52.756563358661936,83.01119023397762,22.501936483346245,0.0,1.0,25.0,11672.080000000002,10236.849083580359,1.0,0.0,635.2,951.8757359375576,633.0400000000001,950.4187445542096,633.0400000000001,950.4187445542096,0.9600000000000002,0.7348469228349535,0.0,0.0,0.0,0.0,1.0,0.0
+136898.0,120.0009994506836,150.0,1140.80712890625,136850.0,67.32407745706979,6.973547061985975,17.736119798373743,2.5900753714111593,57.58439616703941,79.78645981656518,14.787430683918668,63.398667966758396,67.74101934295363,59.05631659056316,52.74698669032149,97.0421032954708,8.451870085172196,0.0,1.0,25.0,121410.84,43098.43915066221,1.0,0.0,3840.3599999999988,6307.056351685254,3810.959999999998,6301.95368172971,3810.959999999998,6301.95368172971,1.5200000000000002,1.3266499161421599,0.0,0.0,0.0,0.0,1.0,0.0

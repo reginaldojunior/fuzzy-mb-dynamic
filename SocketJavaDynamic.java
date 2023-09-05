@@ -110,7 +110,7 @@ public class SocketJavaDynamic {
                 // instancesSent += num_inst - 1;
                 long justSent = System.nanoTime();
                 long elapsed = TimeUnit.NANOSECONDS.toMillis(justSent - startTime);
-                long sl = elapsed > 0 && elapsed < 200 ? 200 - elapsed : 200;
+                long sl = elapsed > 0 && elapsed < 1000 ? 1000 - elapsed : 1000;
                 // sleep for 200ms - time taken to send all messages
                 // System.out.println("st: " + startTime + " - elapsed: " + elapsed + " - diff st: " + TimeUnit.NANOSECONDS.toMillis(startTime - lastStart));
                 Thread.sleep(sl);

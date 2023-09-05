@@ -1,13 +1,36 @@
 Connected!
+[newChuckSize]:0
+thread is open, sizeMB500
+[newChuckSize]:500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 print extradionario!!!!
-P0.000885,1,0.382979,0.299327,0.610086,0.003467,0.422915,0.414912,UP
-java.lang.NumberFormatException: For input string: "P0.000885"
+N0.452192,1,0.787234,0.047466,0.632847,0.003203,0.415588,0.425439,UP
+java.lang.NumberFormatException: For input string: "N0.452192"
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
+thread is open, sizeMB500
 print extradionario!!!!
-0.004292,2,0.460.013141,7,0.574468,0.041401,0.286968,0.003467,0.422915,0.414912,DOWN0.013141,7,0.595745,0.041401,0.272687,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: multiple points
-print extradionario!!!!
-0.017964,5,0.893617,0.076318,0.4709910.439007,2,0.680851,0.053321,0.483933,0.003467,0.422915,0.414912,DOWN0.439007,2,0.702128,0.053321,0.498512,0.003467,0.422915,0.414912,DOWN
-java.lang.NumberFormatException: multiple points
+WN0.469537,4,0.787234,0.028251,0.428146,0.001892,0.319782,0.582456,DOWN
+java.lang.NumberFormatException: For input string: "WN0.469537"
+thread is open, sizeMB500
+thread is open, sizeMB500
 BYTES READ -1
 learning evaluation instances,Wall Time (Actual Time),Avg Delay (ms),outRate (inst/s),classified instances,classifications correct (percent),Kappa Statistic (percent),Kappa Temporal Statistic (percent),Kappa M Statistic (percent),F1 Score (percent),F1 Score for class 0 (percent),F1 Score for class 1 (percent),Precision (percent),Precision for class 0 (percent),Precision for class 1 (percent),Recall (percent),Recall for class 0 (percent),Recall for class 1 (percent),model training instances,model serialized size (bytes)
-5501.0,20.43600082397461,1628.0,269.18182373046875,5500.0,87.16363636363637,72.86854583371122,18.47575057736719,67.67399267399267,86.50767821624528,83.23836657169991,89.61249447473111,87.03057716581391,86.52517275419545,87.53598157743235,85.99102512517574,80.19213174748398,91.7899185028675,0.0,1.0
+29001.0,119.0790023803711,1425.0,243.544189453125,29000.0,88.93448275862069,77.17168900874265,25.180694800652866,73.9211702559935,88.64286999915473,86.56528842528591,90.59688809447066,89.00249844056691,89.33852140077822,88.66647548035561,88.2861361311012,83.95904436860067,92.61322789360172,0.0,1.0
