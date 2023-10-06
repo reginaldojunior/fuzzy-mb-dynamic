@@ -30,16 +30,25 @@ public class SocketJavaDynamic {
         return ips;
     }
 
+    public static int oscilarTempoEntreEnvioDeMensagens(int limit) {
+        Random random = new Random();
+        int segundos = random.nextInt(limit);
+
+        return segundos;
+    }
+
     public static void main(String[] args) throws IOException, InterruptedException {
         if (args.length != 3) {
             System.out.println("Usage: ServerProducer <ip> <port> <file> <Rate of instances per second>");
             System.exit(1);
         }
+
         String ip = args[0];
         int port = Integer.parseInt(args[1]);
         String filename = args[2];
 
         int instancesSent = 0;
+
         // load all file to memory
         List<String> lines = Files.readAllLines(Paths.get(filename));
         System.out.println("read " + lines.size() + " lines to memory from file " + filename + ".");
@@ -64,20 +73,21 @@ public class SocketJavaDynamic {
             }
 
             String msg = "";
-            // start sendind all the rest
+
             boolean keep_going = true;
-            // long lastStart = 0;
+
             long startTime = 0;
             ByteBuffer buffer = ByteBuffer.allocate(1048576); //1048576
-            // while (i < lines.size() && keep_going) {
+
             int limit = lines.size();
-            // int limit = i + 2000;
+
             long startingAll = System.currentTimeMillis();
             long lastSuccessfullStep = 0;
             int ips = 0;
             int ipb = 0;
+            int segundos = 0;
             while (i < limit && keep_going) {
-                // lastStart = startTime;
+                segundos = 0;
                 startTime = System.nanoTime();
                 // We want to send a fixed per second rate, but divided in smaller chunks
                 // we use IPB (IPS/5) to send 5 smaller chunks
@@ -89,11 +99,11 @@ public class SocketJavaDynamic {
                 ipb = ips / 5;
 
                 int num_inst = 0;
-                while (num_inst < ipb && i < limit) {
+                while (num_inst < ipb && i < limit) {                    
                     msg = lines.get(i++) + "#";
                     buffer.flip();
                     buffer = ByteBuffer.wrap(msg.getBytes());
-                    // System.out.print(msg);
+
                     try {
                         socketChannel.write(buffer);
                     } catch (IOException ex) {
@@ -101,24 +111,29 @@ public class SocketJavaDynamic {
                         keep_going = false;
                         break;
                     }
+
                     num_inst++;
                     instancesSent++;
                 }
-                if (!keep_going)
-                    break;
+
                 //System.out.println("Sent [ " + (num_inst) + " ] messages.");
-                // instancesSent += num_inst - 1;
+
                 long justSent = System.nanoTime();
                 long elapsed = TimeUnit.NANOSECONDS.toMillis(justSent - startTime);
                 long sl = elapsed > 0 && elapsed < 1000 ? 1000 - elapsed : 1000;
-                // sleep for 200ms - time taken to send all messages
-                // System.out.println("st: " + startTime + " - elapsed: " + elapsed + " - diff st: " + TimeUnit.NANOSECONDS.toMillis(startTime - lastStart));
+
                 Thread.sleep(sl);
+
+                if (!keep_going)
+                    break;
+
                 if ((System.currentTimeMillis() - startingAll) / 1000F > 120) {
                     keep_going = false;
                 }
             }
+
             double totalSpent = (System.currentTimeMillis() - startingAll) / 1000.0;
+
             // send finish message
             if (keep_going) {
                 msg = "$$";
@@ -127,15 +142,17 @@ public class SocketJavaDynamic {
                 if (socketChannel.isOpen())
                     socketChannel.write(buffer);
             }
+
             System.out.println("\nTotal Time Producer (s): " + totalSpent);
             System.out.println("Total instances Producer: " + instancesSent);
             System.out.println("Producer Rate (inst per second): " + instancesSent/totalSpent);
+
             // close socket
             System.out.println("Closing socket and terminating program.");
             socketChannel.configureBlocking(true);
             socketChannel.close();
         }
-        // serverSocketChannel.configureBlocking(true);
+
         serverSocketChannel.close();
     }
- }
+}
