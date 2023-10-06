@@ -1,4 +1,3 @@
-#!/bin/bash
 
 ## rasp
 export RESULT_DIR=/home/pi/reginaldojunior/experimentos/dynamic-batch/results
@@ -9,28 +8,28 @@ export MOA_HOME=/home/pi/reginaldojunior/moa/moa-dynamic-batch
 
 function Y {
   #Usage: $0 FILE ALGORITHM RATE
-  Memory=900M
+  Memory=700m
   echo "file: $1 algorithm: $2"
 
   declare -a esize=(25)
   mkdir -p $RESULT_DIR
   faux=${1##*\/}
   onlyname=${faux%%.*}
-  nCores=8
+  nCores=4
   date +"%d/%m/%y %T"
   date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
   echo "ssh-${onlyname}-${2##*.}" >> ${RESULT_DIR}/ssh-log
 
-  ssh gcassales@192.168.0.11 python socket-python-fuzzy.py 192.168.0.11 9004 ${REMOTE_DIR}/$1 >> ${RESULT_DIR}/ssh-log &
-  sleep 30
-  
-  # echo "/usr/bin/java -Xshare:off -XX:+UseParallelGC -Xmx900M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask \"ChannelChunksTIMEDOptimized -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f $1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}\" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}"
+  ssh gcassales@192.168.0.11 java SocketJavaDynamic 192.168.0.11 9004 ${REMOTE_DIR}/$1 >> ${RESULT_DIR}/ssh-log &
+  #ssh gcassales@192.168.0.11 python socket-python-dynamic-batch.py 192.168.0.11 9004 ${REMOTE_DIR}/$1 >> ${RESULT_DIR}/ssh-log &
+  sleep 5
+
+  echo "/usr/bin/java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask \"ChannelChunksTIMEDOptimized -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f ${LOCAL_DIR}/$1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}\" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}"
   IDENT="timedchunk"
   echo "$RESULT_DIR/${onlyname}-${2##*.}" >> ${EXPER_ORDER_FILE}
-  /usr/bin/java -Xshare:off -XX:+UseParallelGC -Xmx900M -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelChunksTIMEDOptimized -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f ${LOCAL_DIR}/$1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}
-  pidId=$(ssh gcassales@192.168.11 lsof -i:9004 | grep 9004 | awk '{print $2}')
-  ssh gcassales@192.168.0.11 kill -9 $pidId
-  sleep 30
+  /usr/bin/java -Xshare:off -XX:+UseParallelGC -Xmx$Memory -cp $MOA_HOME/lib/:$MOA_HOME/lib/moa.jar moa.DoTask "ChannelChunksTIMEDOptimized -l ($2 -s ${esize} -c ${nCores}) -s (ArffFileStream -f ${LOCAL_DIR}/$1) -c 50 -e (BasicClassificationPerformanceEvaluator -o -p -r -f) -i -1 -d $RESULT_DIR/dump-${onlyname}-${2##*.}-${esize}-${nCores}" > ${RESULT_DIR}/term-${onlyname}-${2##*.}-${esize}-${nCores}
+
+  sleep 5
   echo ""
   date +"%d/%m/%y %T"
   date +"%d/%m/%y %T" >> $EXPER_ORDER_FILE
@@ -68,7 +67,6 @@ function X {
 # alterar para o caminho do HD/scratch
 mkdir -p $RESULT_DIR
 
-# x dataset alg batch_size (seq) (mb-without-lf) (mb-lf)
 X covtypeNorm.arff ARF
 X covtypeNorm.arff LBag
 X covtypeNorm.arff SRP
