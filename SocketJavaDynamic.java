@@ -134,7 +134,7 @@ public class SocketJavaDynamic {
                     break;
                 }
 
-                if ((System.currentTimeMillis() - startingAll) / 1000F > 600) {
+                if ((System.currentTimeMillis() - startingAll) / 1000F > 600) { // trocar o 600 por uma constante LIMIT_MAX_EXECUTION
                     keepGoing = false;
                 }
             }
