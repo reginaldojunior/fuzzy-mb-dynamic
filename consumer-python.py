@@ -2,7 +2,7 @@ import socket
 
 def main():
     ip = "127.0.0.1"  # IP do servidor
-    port = 9004  # Porta do servidor
+    port = 9030  # Porta do servidor
 
     socketChannel = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     socketChannel.connect((ip, port))

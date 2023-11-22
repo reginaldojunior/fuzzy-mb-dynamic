@@ -99,7 +99,7 @@ public class SocketJavaDynamic {
 
             while (i < limit && keepGoing) {
                 startTime = System.nanoTime();
-                ipb = oscilarInstanciasPorSegundo(limit, maxRate, countMinute, System.currentTimeMillis());
+                ipb = oscilarInstanciasPorSegundo(limit, maxRate, countMinute, System.currentTimeMillis()) / 5;
 
                 if (passouUmMinuto(countMinute, System.currentTimeMillis())) {
                     countMinute = System.currentTimeMillis();
